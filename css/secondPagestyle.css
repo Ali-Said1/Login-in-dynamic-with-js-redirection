@@ -1,0 +1,19 @@
+div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  position: relative;
+}
+a:visited {
+  color: rgb(226, 7, 226);
+}
+a:hover,
+a:active {
+  color: rgb(51, 255, 0);
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Main Page</title>
+</head>
+<body>
+    <h1>Hello in main page</h1>
+    <form method="POST">
+        <input type="text" autocomplete="off" name="userName" id="un" placeholder="Username" required>
+        <input type="password" name="pw" id="pw" placeholder="From 4 to 12" minlength="4" maxlength="12" required>   
+        <button class="submitButton" id="submit"  disabled>Login<a onclick="linkclick()" id="submitLink" href="redirect.html">Login</a></button>
+    </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
