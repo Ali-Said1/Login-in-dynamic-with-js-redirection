@@ -13,12 +13,17 @@ form {
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: space-between;
   flex-wrap: wrap;
   height: 200px;
   background-color: black;
   padding: 20px;
+}
+form label {
+  color: white;
+  justify-self: flex-start;
+  font-size: 20px;
 }
 form input {
   outline: none;
@@ -30,6 +35,7 @@ form input {
   background-color: aqua;
   caret-color: brown;
   box-shadow: 2px 2px 2px 0 red;
+  margin: auto;
 }
 
 button {
@@ -41,6 +47,7 @@ button {
   box-shadow: 2px 2px 2px 0 red;
   border: none;
   z-index: 2;
+  margin: auto;
 }
 a {
   position: absolute;
